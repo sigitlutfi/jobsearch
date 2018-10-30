@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "479798266822",
+    "firebase_url": "https://bokingfutsal-afb24.firebaseio.com",
+    "project_id": "bokingfutsal-afb24",
+    "storage_bucket": "bokingfutsal-afb24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479798266822:android:a7c3fb357026b5f2",
+        "android_client_info": {
+          "package_name": "com.brownbubble.bosal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479798266822-j4t1h538j847dt0rssc03pr992292dhn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brownbubble.bosal",
+            "certificate_hash": "e1f1c9a830fbbe5e80fbf7d1766cff4b6bdd5ed0"
+          }
+        },
+        {
+          "client_id": "479798266822-ri9fgpn3eh4udgc0buubtc763rnfnsoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj48xCwNyBevoF_LIMiWUqzgxnme7w1rw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479798266822-ri9fgpn3eh4udgc0buubtc763rnfnsoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479798266822:android:ba4c29807827504d",
+        "android_client_info": {
+          "package_name": "haruna.gi.job"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479798266822-vbata04psbpaa9dujjsrnd3a9d2d69vo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "haruna.gi.job",
+            "certificate_hash": "94bb543c9d0c3ea615389f8ed2172422c35f29eb"
+          }
+        },
+        {
+          "client_id": "479798266822-ri9fgpn3eh4udgc0buubtc763rnfnsoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj48xCwNyBevoF_LIMiWUqzgxnme7w1rw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479798266822-ri9fgpn3eh4udgc0buubtc763rnfnsoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

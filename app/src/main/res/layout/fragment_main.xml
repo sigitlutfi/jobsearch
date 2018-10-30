@@ -1,0 +1,295 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nested_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:scrollbars="none"
+    android:scrollingCache="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:text="Ada 8 Pekerjaan yang cocok untukmu"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_large"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="12dp">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_middle"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="First Company"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="trademark"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spacing_small"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/grey_400" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spacing_large"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Membutuhkan Karyawan baru "
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/spacing_medium"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="PT First Company membutuhkan karyawan baru guna mengisi lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris et eleifend tellus. Proin sagittis orci in odio gravida, in iaculis ipsum sollicitudin"/>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/spacing_medium"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/grey_400" />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/spacing_medium"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/pin"
+                        android:scaleType="fitCenter" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/spacing_small"
+                        android:textSize="15dp"
+                        android:text="Lokasi"/>
+                    <ImageButton
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/phone"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/spacing_small"
+                        android:textSize="15dp"
+                        android:text="08xxxxxxxxxx"/>
+                    <ImageButton
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/degree"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/spacing_small"
+                        android:textSize="15dp"
+                        android:text="SMA"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_large"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_middle"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="First Company"
+                    android:textSize="16sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="trademark"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spacing_large"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/grey_400" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spacing_large"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Membutuhkan Karyawan baru "
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/spacing_medium"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="PT First Company membutuhkan karyawan baru guna mengisi lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris et eleifend tellus. Proin sagittis orci in odio gravida, in iaculis ipsum sollicitudin"/>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/spacing_medium"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/grey_400" />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/spacing_medium"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/googleg_disabled_color_18"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/googleg_disabled_color_18"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/googleg_disabled_color_18"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_large"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_middle"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="First Company"
+                    android:textSize="16sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="trademark"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spacing_large"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/grey_400" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spacing_large"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Membutuhkan Karyawan baru "
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/spacing_medium"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="PT First Company membutuhkan karyawan baru guna mengisi lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris et eleifend tellus. Proin sagittis orci in odio gravida, in iaculis ipsum sollicitudin"/>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/spacing_medium"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/grey_400" />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/spacing_medium"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/googleg_disabled_color_18"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/googleg_disabled_color_18"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/googleg_disabled_color_18"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

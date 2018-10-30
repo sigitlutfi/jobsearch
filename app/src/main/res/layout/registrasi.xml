@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_10">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_mlarge">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:layout_marginBottom="@dimen/spacing_xlarge"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:text="REGISTRASI"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/grey_600"
+            android:textStyle="bold"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_middle"
+            app:cardBackgroundColor="@android:color/white"
+            android:visibility="visible"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/spacing_mlarge">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="@dimen/spacing_middle"
+                    android:layout_marginTop="@dimen/spacing_small"
+                    android:text="Biodata"
+                    android:textColor="@color/grey_600"
+                    android:textStyle="bold" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama"
+                    android:inputType="text"
+                    app:met_clearButton="true"
+                    app:met_validateOnFocusLost="false"
+                    fancy:met_floatingLabel="highlight"
+                    fancy:met_maxCharacters="55"
+                    fancy:met_primaryColor="@color/grey_800"
+                    android:textStyle="bold"
+                    />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/spacing_small" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    app:met_clearButton="true"
+                    app:met_validateOnFocusLost="false"
+                    fancy:met_floatingLabel="highlight"
+                    fancy:met_maxCharacters="55"
+                    fancy:met_primaryColor="@color/grey_800"
+                    android:textStyle="bold"
+                    />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/spacing_small" />
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="Password"
+                    app:met_clearButton="true"
+                    app:met_validateOnFocusLost="false"
+                    fancy:met_floatingLabel="highlight"
+                    fancy:met_maxCharacters="12"
+                    fancy:met_primaryColor="@color/grey_800"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/spacing_small" />
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/alamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:hint="Alamat"
+                    app:met_clearButton="true"
+                    app:met_validateOnFocusLost="false"
+                    fancy:met_floatingLabel="highlight"
+                    fancy:met_maxCharacters="120"
+                    fancy:met_primaryColor="@color/grey_800"
+                    android:textStyle="bold" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/spacing_small" />
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/notelp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="No Telp"
+                    app:met_clearButton="true"
+                    app:met_validateOnFocusLost="false"
+                    fancy:met_floatingLabel="highlight"
+                    fancy:met_maxCharacters="12"
+                    fancy:met_primaryColor="@color/grey_800"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/spacing_large" />
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_middle"
+            app:cardBackgroundColor="@android:color/white"
+            android:visibility="visible"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/spacing_mlarge">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:layout_marginBottom="@dimen/spacing_middle"
+                    android:text="Pendidikan Terakhir"
+                    android:textColor="@color/grey_600"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/spacing_small" />
+                <RadioGroup
+                    android:id="@+id/rbt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/sd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SD"
+                        android:textColor="@android:color/black" />
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/smp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SMP / Sederajat"
+                        android:textColor="@android:color/black" />
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/sma"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="SMA / Sederajat"
+                        android:textColor="@android:color/black" />
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/d3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="D3 / Sederajat"
+                        android:textColor="@android:color/black" />
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/s1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="S1"
+                        android:textColor="@android:color/black" />
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/s2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="S2"
+                        android:textColor="@android:color/black" />
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/s3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="S3"
+                        android:textColor="@android:color/black" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/spacing_large" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_middle"
+            app:cardBackgroundColor="@android:color/white"
+            android:visibility="visible"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/spacing_mlarge">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:layout_marginBottom="@dimen/spacing_middle"
+                    android:text="Keahlian dan Gaji"
+                    android:textColor="@color/grey_600"
+                    android:textStyle="bold" />
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/keahlian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_gravity="start"
+                    fancy:fb_radius="55dp"
+                    fancy:fb_focusColor="@color/yellow_600"
+                    fancy:fb_defaultColor="@android:color/white"
+                    android:text="Keahlian"
+                    android:textAllCaps="false"
+                    fancy:fb_borderWidth="2dp"
+                    fancy:fb_borderColor="@color/yellow_800"
+                    fancy:fb_textColor="@color/yellow_800"
+                    android:textStyle="bold" >
+
+                </mehdi.sakout.fancybuttons.FancyButton>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/spacing_small" />
+                <TextView
+                    android:id="@+id/txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/spacing_small" />
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/gaji"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Gaji yang diharapkan"
+                    android:inputType="number"
+                    app:met_clearButton="true"
+                    app:met_validateOnFocusLost="false"
+                    fancy:met_floatingLabel="highlight"
+                    fancy:met_primaryColor="@color/grey_800"
+                    fancy:fb_focusColor="@color/yellow_600"
+                    android:clickable="true"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/spacing_large" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/daftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_middle"
+            android:padding="15dp"
+            fancy:fb_radius="55dp"
+            fancy:fb_defaultColor="@color/yellow_800"
+            android:text="D A F T A R"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" >
+        </mehdi.sakout.fancybuttons.FancyButton>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/spacing_middle"/>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
